@@ -14,9 +14,11 @@
   "author": "",
   "license": "ISC",
   "devDependencies": {
-    "gh-pages": "^6.3.0",
     "parcel": "^2.14.4",
     "parcel-reporter-clean-dist": "^1.0.4",
     "posthtml-include": "^2.0.1"
+  },
+  "dependencies": {
+    "gh-pages": "^6.3.0"
   }
 }
