@@ -2,10 +2,11 @@
   "name": "homework-localstorage",
   "version": "1.0.0",
   "description": "",
+  "homepage": "https://pro100mq.github.io/homework-localStorage/",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
     "start": "npx parcel src/index.html",
-    "build": "parcel build src/index.html",
+    "build": "parcel build src/index.html --no-cache --public-url /homework-localstorage",
     "deploy": "gh-pages -d dist",
     "predeploy": "npm run build"
   },
